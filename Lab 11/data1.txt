@@ -1,0 +1,22 @@
+Top 20 Donkey Kong High Scores
+
+1  1,177,200  Robbie Lakeman    2015
+2  1,206,800  Dean Saglio       2013
+3  1,170,500  Wes Copeland      2015
+4  1,138,600  Hank Chien        2012
+5  1,137,500  Mark Kiehl        2014	
+6  1,136,500  Ross Benziger     2013	
+7  1,135,900  Vincent Lemay     2013	
+8  1,110,000  Steve Wiltshire   2015	
+9  1,108,100  Dave McCrary      2015	
+10 1,107,600  Jeff Willms       2011	
+11 1,103,700  Jeff Wolfe        2013	
+12 1,089,400  Phil Tudose       2013	
+13 1,076,000  Mike Groesbeck    2014	
+14 1,072,200  Corey Chambers    2014	
+15 1,064,500  Steve Wiebe       2010	
+16 1,062,800  Billy Mitchell    2010	
+17 1,061,500  Jason Wade        2015	
+18 1,059,700  Daniel Desjardins 2015	
+19 1,049,100  Ethan Daniels     2015	
+20 1,048,100  Tim Sczerby       2015
