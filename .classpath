@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="ADT_stack and queue/src"/>
+	<classpathentry kind="src" path="April 12/src"/>
+	<classpathentry kind="src" path="April 21/src"/>
+	<classpathentry kind="src" path="April 7/src"/>
+	<classpathentry kind="src" path="Arrays/src"/>
+	<classpathentry kind="src" path="BinarySearchTree/src"/>
+	<classpathentry kind="src" path="ClassVars/src"/>
+	<classpathentry kind="src" path="CS237 Assignment 2_Bilal_Asif/src"/>
+	<classpathentry kind="src" path="CS237 Assignment 3_Bilal Asif/src"/>
+	<classpathentry kind="src" path="CS237 Assignment 4_Bilal Asif/src"/>
+	<classpathentry kind="src" path="Feb 16, 2016/src"/>
+	<classpathentry kind="src" path="Feb 23/src"/>
+	<classpathentry kind="src" path="Feb 4 2016/src"/>
+	<classpathentry kind="src" path="Feb18/src"/>
+	<classpathentry kind="src" path="Feb25/src"/>
+	<classpathentry kind="src" path="IfProject/src"/>
+	<classpathentry kind="src" path="Lab 10/src"/>
+	<classpathentry kind="src" path="Lab 11/src"/>
+	<classpathentry kind="src" path="Lab 12/src"/>
+	<classpathentry kind="src" path="Lab 5/src"/>
+	<classpathentry kind="src" path="Lab 7/src"/>
+	<classpathentry kind="src" path="Lab 8/src"/>
+	<classpathentry kind="src" path="Lab 9/src"/>
+	<classpathentry kind="src" path="Lab4/src"/>
+	<classpathentry kind="src" path="Marc/src"/>
+	<classpathentry kind="src" path="March 03/src"/>
+	<classpathentry kind="src" path="March 22/src"/>
+	<classpathentry kind="src" path="March 24/src"/>
+	<classpathentry kind="src" path="March 29/src"/>
+	<classpathentry kind="src" path="March 31/src"/>
+	<classpathentry kind="src" path="Numerical Int/src"/>
+	<classpathentry kind="src" path="Project 1/src"/>
+	<classpathentry kind="src" path="Project 3/src"/>
+	<classpathentry kind="src" path="Project 4/src"/>
+	<classpathentry kind="src" path="Project2/src"/>
+	<classpathentry kind="src" path="Queues/src"/>
+	<classpathentry kind="src" path="Quicksort/src"/>
+	<classpathentry kind="src" path="RecursionI/src"/>
+	<classpathentry kind="src" path="RecursionII/src"/>
+	<classpathentry kind="src" path="Simple Sorting/src"/>
+	<classpathentry kind="src" path="SimpleLinkList/src"/>
+	<classpathentry kind="src" path="Stacks/src"/>
+	<classpathentry kind="output" path="ADT_stack and queue/bin"/>
+</classpath>
