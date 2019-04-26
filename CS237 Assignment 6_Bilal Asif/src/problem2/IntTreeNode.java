@@ -12,9 +12,9 @@ public class IntTreeNode {
 
 	int key; // store this node's key value
 	IntTreeNode leftChild; // store the reference
-	// to this node's left child
+							// to this node's left child
 	IntTreeNode rightChild; // store the reference
-	// to this node's right child
+							// to this node's right child
 
 	// constructor
 	public IntTreeNode(int key) {

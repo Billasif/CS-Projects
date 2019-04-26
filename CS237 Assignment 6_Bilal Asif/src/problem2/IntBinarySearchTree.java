@@ -112,7 +112,7 @@ public class IntBinarySearchTree {
 			preOrder(root);
 			break;
 		case 2:
-			System.out.print("\nInorder traversal: ");
+			System.out.print("\nInorder traversal:  ");
 			inOrder(root);
 			break;
 		case 3:
@@ -149,4 +149,33 @@ public class IntBinarySearchTree {
 			subTreeRoot.display();
 		}
 	}
+
+	// remove a node from this binary search tree
+	public boolean remove(int delKey) {
+		if (root == null)
+			return false;
+		else {
+			if (delKey == root.key) {
+				IntTreeNode auxRoot = new IntTreeNode(0); // dummy root
+				auxRoot.leftChild = root;
+				IntTreeNode removedNode = root.remove(delKey, auxRoot);
+				root = auxRoot.leftChild;
+				if (removedNode != null) {
+					removedNode = null;
+					numItems--;
+					return true;
+				} else
+					return false;
+			} else {
+				IntTreeNode removedNode = root.remove(delKey, null);
+				if (removedNode != null) {
+					removedNode = null;
+					numItems--;
+					return true;
+				} else
+					return false;
+			}
+		}
+	}
+
 }
