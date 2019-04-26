@@ -1,3 +1,11 @@
+/**
+ * HashTableWithChainingApp class
+ * 
+ * @author Bilal Asif
+ * @date 04/26/2019
+ *
+ * Using trees instead of lists for Hashtable App
+ */
 package problem2;
 
 import java.io.BufferedReader;
