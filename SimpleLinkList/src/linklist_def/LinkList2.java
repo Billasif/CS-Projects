@@ -88,5 +88,7 @@ public class LinkList2 {
 	         }
 	      System.out.println("");
 	      }
+	   
+	   
 
 } // end of class LinkList2
