@@ -1,3 +1,11 @@
+/**
+ * Link class
+ *
+ * @author Bilal Asif
+ * @date 05/09/2019
+ *
+ * Creates Link
+ */
 package problem1;
 
 public class Link {

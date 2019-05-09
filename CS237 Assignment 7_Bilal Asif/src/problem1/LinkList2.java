@@ -1,3 +1,11 @@
+/**
+ * LinkList2 class
+ *
+ * @author Bilal Asif
+ * @date 05/09/2019
+ *
+ * Creates Linklist
+ */
 package problem1;
 
 public class LinkList2 {

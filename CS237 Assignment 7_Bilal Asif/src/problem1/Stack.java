@@ -1,3 +1,11 @@
+/**
+ * Stack class
+ *
+ * @author Bilal Asif
+ * @date 05/09/2019
+ *
+ * Class which creates a Stack
+ */
 package problem1;
 
 class Stack

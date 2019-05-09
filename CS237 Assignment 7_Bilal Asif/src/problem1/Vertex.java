@@ -1,3 +1,11 @@
+/**
+ * Vertex class
+ *
+ * @author Bilal Asif
+ * @date 05/09/2019
+ *
+ * Creates a Vertex
+ */
 package problem1;
 
 class Vertex

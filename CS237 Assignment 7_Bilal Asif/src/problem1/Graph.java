@@ -1,3 +1,11 @@
+/**
+ * Graph class
+ *
+ * @author Bilal Asif
+ * @date 05/09/2019
+ *
+ * Defining a class that uses adjacency lists and creates a MST of BFS
+ */
 package problem1;
 /*
  * demonstrates depth-first search (DFS), breath-first search (BFS), 
@@ -7,7 +15,7 @@ class Graph
 {
 	private final int MAX_VERTS = 20;
 	private Vertex vertexList[]; // list of vertices
-	private LinkList2[] adjMat;      // adjacency matrix
+	private LinkList2[] adjMat;      // adjacency Linked List
 	private int nVerts;          // current number of vertices
 	private Stack theStack;
 	private Queue theQueue;
@@ -118,11 +126,36 @@ class Graph
 	            vertexList[j].wasVisited = false;
 	      }  // end mst_dfs()
 //--------------------------------------------------------------
+	   public void mst_bfs() //minimum spanning tree (breadth first)
+	      {                                // begin at vertex 0
+	      vertexList[0].wasVisited = true; // mark it
+	      //displayVertex(0);                // display it
+	      theQueue.insert(0);              // insert at tail
+	      int v2;
+
+	      while( !theQueue.isEmpty() )     // until queue empty,
+	         {
+	         int v1 = theQueue.remove();   // remove vertex at head
+	         // until it has no unvisited neighbors
+	         while( (v2=getAdjUnvisitedVertex(v1)) != -1 )
+	            {                                  // get one,
+	            vertexList[v2].wasVisited = true;  // mark it
+	            displayVertex(v1);                 // display it
+	            displayVertex(v2);
+	            System.out.print(" ");
+	            theQueue.insert(v2);               // insert it
+	            }   // end while
+	         }  // end while(queue not empty)
+	      // queue is empty, so we're done
+	      for(int j=0; j<nVerts; j++)             // reset flags
+	         vertexList[j].wasVisited = false;
+	      }  // end mst_bfs()
+// -------------------------------------------------------------
 // returns an unvisited vertex adj to v
 	public int getAdjUnvisitedVertex(int v)
 	   {
 	   for(int j=0; j<nVerts; j++)
-	      if(adjMat[v].find(j) && vertexList[j].wasVisited==false)
+	      if(adjMat[v].find(j)!=null && vertexList[j].wasVisited==false)
 	         return j;
 	   return -1;
 	   }  // end getAdjUnvisitedVertex()

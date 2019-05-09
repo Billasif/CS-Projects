@@ -1,3 +1,11 @@
+/**
+ * Queue class
+ *
+ * @author Bilal Asif
+ * @date 05/09/2019
+ *
+ * Class that creates a Queue
+ */
 package problem1;
 
 class Queue
