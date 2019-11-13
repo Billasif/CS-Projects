@@ -5,16 +5,15 @@ import java.io.PrintWriter;
 public class Eulers_Method {
 
 	public static void main(String[] args) throws IOException {
-		double y0, v0, dt, t;
+		double y0, v0, dt, t, m;
 		double u1o, u2o, u1n, u2n;
-		double H = 8000;
-		double R = 6370000;
 		dt = .05;
-		double g = 9.8;
+		double g = 1;
 		//y = 0;
-		double c = 0.5;
-		double m = 70;
-		y0 = 32000;
+		double R = 1;
+		double M = 1;
+		m = 0.7;
+		y0 = 0;
 		v0 = 0;
 		//double w=0.1;
 		FileWriter fileWriter = new FileWriter("Euler.txt");
@@ -25,16 +24,13 @@ public class Eulers_Method {
 		u1o = y0;
 		u2o = v0;
 		printWriter.println("T\tu1n\tu2n");
-		while (u1o > 0) {
-			u2n = u2o - (g-((c*Math.pow(u2o, 2))/m))  * dt;
+		while (t > 20) {
+			u2n = u2o - (m*g-M*g*Math.sin(u1o))/((m+M)*R)  * dt;
 			u1n = u1o + u2n * dt;
 			t = t + dt;
-			printWriter.println(t + "," + u1n + "," + u2n + "," + g + "," + c);
+			printWriter.println(t + "," + u1n + "," + u2n);
 			u2o = u2n;
 			u1o = u1n;
-			double a = 1+(u1o/R);
-			g = 9.8/Math.pow(a,2);
-			c = 0.5*Math.exp(-u1o/H);
 			
 		}
 		
